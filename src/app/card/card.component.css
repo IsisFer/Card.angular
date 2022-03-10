@@ -1,0 +1,77 @@
+.app-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 320px;
+  flex-direction: column;
+  color:#70709b;
+  transition: .7s;
+
+}
+
+.app-card:hover{
+ background: #8e93ea;
+ height: 350px;
+ color:white
+}
+
+.app-card:hover button{
+color: white;
+border: 2px solid white;
+}
+.app-card:hover .preco {
+ color: white;
+}
+
+button{
+  width: 210px;
+  background-color:rgba(255, 255, 255, 0) ;
+  margin-top:20px;
+
+}
+
+button:hover{
+  background: rgba(255, 255, 255, 0.383);
+}
+
+.p2{
+border-bottom:solid 1px #6f709e2d;
+font-size: 15px;
+margin-top: 10px;
+height: 20px;
+font-weight: bold;
+padding-top:05px ;
+
+}
+
+#p0{
+font-size: 15px;
+font-weight: bold;
+padding-top: 03px;
+height: 10px;
+
+}
+
+.preco {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin:10px 0;
+  border-bottom:solid 1px #6f709e2d;
+  color: #212241;
+}
+
+#preco1{
+ font-size: 25px;
+ margin-right: 10px;
+
+}
+
+#preco2{
+  font-size: 50px;
+  margin:10px 0;
+
+}
+

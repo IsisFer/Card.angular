@@ -1,0 +1,31 @@
+<mat-card [style]=" 'background:' + bg + ';'  "
+ class="app-card">
+
+  <mat-card-content>
+
+    <p id="p0">
+      {{titulo}}
+    </p>
+
+    <div class="preco" >
+       <p id="preco1">$</p>
+       <p id="preco2">{{parte1}}</p>
+    </div>
+
+    <p class="p2">
+      {{parte2}}
+    </p>
+
+    <p class="p2">
+      {{parte3}}
+    </p>
+
+    <p class="p2">
+      {{parte4}}
+    </p>
+
+      <button mat-stroked-button color="primary"
+      (click)="clicar()">LEARN MORE</button>
+
+  </mat-card-content>
+</mat-card>
